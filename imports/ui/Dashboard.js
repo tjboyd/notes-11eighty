@@ -7,13 +7,13 @@ import Editor from './Editor';
 export default () => {
   return (
     <div>
-      <PrivateHeader title="Your Dashboard"/>
+      <PrivateHeader title="Notes"/>
       <div className="page-content">
         <div className="page-content__sidebar">
           <NoteList/>
         </div>
         <div className="page-content__main">
-          <Editor/>          
+          <Editor/>
         </div>
       </div>
     </div>
