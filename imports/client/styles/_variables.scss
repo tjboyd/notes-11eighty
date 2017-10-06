@@ -40,10 +40,8 @@ $header-bg: $brand-primary;
 $header-color: white;
 $header-height: 6rem;
 
-// Item
-$item-bg: $light-grey;
-$item-border: darken($item-bg, 8%);
-$item-text-color: $dark-grey;
+// item
+$item-border-width: 4px;
 
 // Page Content
 $page-content-sidebar-width: 30rem;
